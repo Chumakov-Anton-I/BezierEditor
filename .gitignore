@@ -39,3 +39,9 @@
 
 # debug information files
 *.dwo
+
+# 3rd party sources
+freeglut/
+
+# Some IDE-specific files
+*.user
