@@ -11,12 +11,7 @@
 #ifndef TEXTFILE
 #define TEXTFILE
 
-#include <string.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include "Vector.h"
-#include "Curve.h"
-#include "World.h"
+class World;
 
 /**
  * @name TextFile

@@ -10,7 +10,7 @@
 ************************************************************************/
 
 #include "Color.h"
-
+#include <GL/glu.h>
 
 void Color::Set(float r,float g,float b) {
   this->r=r;
@@ -38,20 +38,20 @@ Color::Color(COLORenum c) {
 }
 
 void Color::GlColor3fv() {
-  float color[3];
-  color[0]=this->r;
-  color[1]=this->g;
-  color[2]=this->b;
-  glColor3fv(color);
+    float color[3] = { r, g, b };
+    //color[0] = this->r;
+    //color[1] = this->g;
+    //color[2] = this->b;
+    glColor3fv(color);
 }
 
 Color * Color::Select() {
-  return new Color(r*0.5,g*0.5,b*0.5);
+  return new Color(r*0.5f, g*0.5f, b*0.5f);
 }
 
-Color *white=new Color(1,1,1);
-Color *black=new Color(0,0,0);
-Color *red=new Color(1,0,0);
-Color *green=new Color(0,1,0);
-Color *blue=new Color(0,0,1);
-Color *yellow=new Color(1,1,0);
+Color *white  = new Color(1, 1, 1);
+Color *black  = new Color(0, 0, 0);
+Color *red    = new Color(1, 0, 0);
+Color *green  = new Color(0, 1, 0);
+Color *blue   = new Color(0, 0, 1);
+Color *yellow = new Color(1, 1, 0);

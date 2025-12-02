@@ -12,9 +12,6 @@
 #define WORLD
 
 #include "Function.h"
-#include "Vector.h"
-#include "Curve.h"
-#include "Constraint.h"
 
 #define W_MAX_VECTOR F_MAX_VECTOR
 #define W_MAX_CURVE F_MAX_CURVE

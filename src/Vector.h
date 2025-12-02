@@ -11,15 +11,10 @@
 #ifndef VECTOR
 #define VECTOR
 
-#include <math.h>
-#include <stdlib.h>
-#include <stdio.h>
 #include "Function.h"
-#include <GL/glut.h>
-#include "Selection.h"
-#include "Color.h"
 
 class Selection;
+class Color;
 
 /**
  *

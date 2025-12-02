@@ -11,11 +11,6 @@
 #ifndef FUNCTION
 #define FUNCTION
 
-#include <getopt.h>
-#include <string.h>
-#include <stdio.h>
-#include <stdlib.h>
-
 extern char * filei;
 extern char * fileo;
 extern int usage;
@@ -28,7 +23,7 @@ extern int usage;
  * @param argc the number of arguments
  * @param argv the list of all the arguments
  */
-void get_param(int argc,char ** argv);
+void get_param(int argc, char **argv);
 
 #define F_MAX_VECTOR 10000
 #define F_MAX_CURVE 100

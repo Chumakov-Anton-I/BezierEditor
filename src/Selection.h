@@ -14,9 +14,6 @@
 #define SELECTION
 
 #include "Function.h"
-#include "Vector.h"
-#include "Curve.h"
-#include "World.h"
 
 #define S_MAX_VECTOR F_MAX_VECTOR
 #define S_MAX_CURVE F_MAX_CURVE

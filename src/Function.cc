@@ -9,6 +9,10 @@
 ************************************************************************/
 
 #include "Function.h"
+#include <getopt.h>
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 char *filei=NULL, *fileo=NULL;
 int usage=0;

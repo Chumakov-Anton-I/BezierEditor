@@ -11,6 +11,10 @@
 ************************************************************************/
 
 #include "Selection.h"
+#include "Vector.h"
+#include "Curve.h"
+#include "World.h"
+#include "Color.h"
 
 void Selection::Init(World * world) {
   nbvector=0;

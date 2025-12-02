@@ -9,7 +9,12 @@
 ************************************************************************/
 
 #include "TextFile.h"
-
+#include "Vector.h"
+#include "Curve.h"
+#include "World.h"
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 TextFile::TextFile(char * input) {
   this->input=input;

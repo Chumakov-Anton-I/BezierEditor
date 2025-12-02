@@ -12,13 +12,7 @@
 #define CURVE
 
 #include <GL/glut.h>
-#include <string.h>
-#include "Vector.h"
 #include "Function.h"
-#include "World.h"
-#include "Color.h"
-#include "Constraint.h"
-#include "Selection.h"
 
 #define NB_MAX_POINTS 100
 #define STEP 0.05

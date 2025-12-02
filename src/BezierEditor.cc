@@ -1,4 +1,4 @@
-/************************************************************************
+ï»¿/************************************************************************
 * Pierre Morel - 2003
 *
 * @name BezierEditor.cc
@@ -894,43 +894,3 @@ int main(int argc, char **argv)
   glutMainLoop();
   return 0;
 }
-
-/*
-BUGS :
------
-
-- sur trois points consécutifs P1,P2 et P3. Si P2 et P3 sont sélectionnés et qu'on les bouge, les deux contraintes sont appliquées, le résultat est moche
-
-- quand on fait un reset, le menu "visible" n'est pas rafaraichi
-
-TODO :
-------
-
--Pouvoir supprimer des points des courbe.
-
--changer la résolution (la constante STEP) avec le zoom, le rayon de courbure
-
--sélectionner une courbe et mettre le autres en arrière plan
-
--importer une courbe à partir du longue série de points (et éliminer ceux qui sont inutiles)
-
--charger/sauvegarder à partir d'un fichier xml (permet de nommer les courbes/points, de leur assigner des couleurs ... rajouter d'autre contraintes)
-
--exporter en (e)ps.
-
--magnétisme (sur la grille, sur les points)
-
--rajouter des axes
-
--étirement local du temps
-
--copier/coller, cycle
-
--undo (assez difficile je pense)
-
--ajouter un identifiant pour les contraintes
-
--toujours de la perte de vecteurs (augmente au moment ou l'on relache la souris
-quand on déplace un point)
-
-*/

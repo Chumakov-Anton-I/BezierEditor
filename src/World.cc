@@ -9,7 +9,9 @@
 ************************************************************************/
 
 #include "World.h"
-
+#include "Vector.h"
+#include "Curve.h"
+#include "Constraint.h"
 
 void World::Init() {
   this->nbvector=0;

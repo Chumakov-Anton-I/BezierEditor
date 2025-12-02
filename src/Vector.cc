@@ -9,6 +9,12 @@
 ************************************************************************/
 
 #include "Vector.h"
+#include <math.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <GL/glut.h>
+#include "Selection.h"
+#include "Color.h"
 
 Selection* Vector::selection=NULL;
 int Vector::count=0;

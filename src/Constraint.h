@@ -13,8 +13,6 @@
 #define CONSTRAINT
 
 #include "Function.h"
-#include "Vector.h"
-#include "World.h"
 
 #define S_MAX_CONSTRAINT F_MAX_CONSTRAINT
 

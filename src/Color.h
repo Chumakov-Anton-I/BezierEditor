@@ -12,9 +12,6 @@
 #ifndef COLOR
 #define COLOR
 
-#include "Function.h"
-#include "GL/glu.h"
-
 enum COLORenum {
   WHITE, BLACK, RED, GREEN, BLUE, YELLOW };
 
@@ -27,7 +24,7 @@ public:
   Color(COLORenum c);
   void GlColor3fv();
   void Set(float r,float g,float b);
-  Color * Select();
+  Color* Select();
 };
 
 extern Color *white,*black,*red,*green,*blue,*yellow;

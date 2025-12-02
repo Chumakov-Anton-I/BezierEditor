@@ -10,9 +10,11 @@
 ************************************************************************/
 
 #include "Constraint.h"
+#include "Vector.h"
+#include "World.h"
+#include <cmath>
 
 World * Constraint::world;
-
 
 void Constraint::SetWorld(World * w) {
   world=w;

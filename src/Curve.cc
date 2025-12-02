@@ -9,6 +9,12 @@
 ************************************************************************/
 
 #include "Curve.h"
+#include "Vector.h"
+#include "World.h"
+#include "Color.h"
+#include "Constraint.h"
+#include "Selection.h"
+#include <string.h>
 
 Selection* Curve::selection;
 
